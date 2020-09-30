@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        form{
+            padding: 15px;
+            margin: 15px;
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="guardar.php" method="POST">
+        <hr>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"  required > <br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" required> <br>
+        <label for="descripcion">descripcion</label>
+        <textarea name="descipcion" id="desciocion"></textarea> <br>
+        <input type="submit" value="Enviar">
+        <hr>
+    </form>
+</body>
+</html>
